@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    padding: 20px;
+    background-color: white;
+    color: black;
+    line-height: 1.4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+h2 {
+    margin: 20px 0 10px 0;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+h3 {
+    margin: 15px 0 5px 0;
+    font-size: 16px;
+}
+
+.breadcrumb {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.form-table td {
+    padding: 5px 10px 5px 0;
+    vertical-align: top;
+}
+
+.form-table td:first-child {
+    width: 30%;
+    white-space: nowrap;
+}
+
+.form-table label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #999;
+    font-size: 14px;
+}
+
+.contact-info {
+    margin: 10px 0;
+}
+
+.contact-info strong {
+    display: inline-block;
+    width: 80px;
+    font-weight: bold;
+}
+
+.inline-input {
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.note {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.donation-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.donation-table td {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.other-amount {
+    margin: 10px 0;
+}
+
+.other-amount label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.other-amount input {
+    width: 150px;
+}
+
+.checkbox-line {
+    margin: 5px 0;
+}
+
+.checkbox-line input {
+    margin-right: 8px;
+}
+
+.full-width {
+    width: 100%;
+    margin: 5px 0 10px 0;
+}
+
+.form-buttons {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.button {
+    padding: 8px 20px;
+    margin: 0 10px;
+    border: 1px solid #999;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.security {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+h1, h2, h3 {
+    color: red;
+}
